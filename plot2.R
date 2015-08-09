@@ -36,7 +36,7 @@ dt$globalActivePower <- as.numeric(dt$Global_active_power)
 png(filename="plot2.png", width=480, height=480)
 
 ## Plot 2 day line graph
-plot(dt$datetime, dt$globalActivePower, type='l', xlab='', ylab='Global Active Power (likowatts)')
+plot(dt$datetime, dt$globalActivePower, type='l', xlab='', ylab='Global Active Power (kilowatts)')
 
 ## required to close connection
 dev.off()
